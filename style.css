@@ -107,13 +107,26 @@ footer p {
     margin-bottom: 4rem;
 }
 
-.logos {
-    width: 1.5rem;
-    color: white;
+.logos1,
+.logos2,
+.logos3 {
+    width: 1.8rem;
     border: solid 1px white;
     border-radius: 100%;
-    padding: 0.2rem;
     margin: 0.2rem;
+    padding: 5px;
+}
+
+.logos1:hover {
+    background-color: var(--soft-magenta);
+}
+
+.logos2:hover {
+    background-color: var(--soft-magenta);
+}
+
+.logos3:hover {
+    background-color: var(--soft-magenta);
 }
 
 .media {
@@ -157,5 +170,6 @@ footer p {
     button {
         padding: 0.8rem;
         width: 10rem;
+        border-radius: 2rem;
     }
 }
